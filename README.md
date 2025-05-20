@@ -1,2 +1,4 @@
 # instagram-scraper
 A Docker-based Instagram scraper that fetches public profile metadata, posts, and comments into structured JSON — all without the official API.
+# About Project
+This project provides a ready-to-use, containerized solution for extracting publicly available Instagram data without relying on Instagram’s official API. Leveraging Instaloader under the hood, it handles login sessions, request throttling, proxy support, and data serialization out of the box. With Docker Compose, you can deploy, configure, and run the scraper in a consistent environment, making it easy to integrate into CI pipelines, scheduled jobs, or local development workflows. Whether you need analytics, archival, or data ingestion for further processing, this scraper delivers clean JSON exports of profiles, posts, and comments with minimal setup.
